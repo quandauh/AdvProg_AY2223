@@ -1,6 +1,7 @@
 name: Test 7 Repo
 
 on:
+  workflow_dispatch:
   pull_request:
     branches: [ master, fixbugL6Painter ]
     paths-ignore:
