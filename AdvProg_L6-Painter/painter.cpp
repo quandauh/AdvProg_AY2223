@@ -7,7 +7,7 @@
     Returns:
         None
 ***/
-void Painter::setColor(SDL_Color color) 
+void Painter::setColor(SDL_Color c) 
 { 
     // TODO: set the color value for the Painter and set Render Draw Color
     color = c;
@@ -44,7 +44,7 @@ void Painter::jumpBackward(int numPixel)
     double rad = M_PI*angle/180;
     int diffX = -numPixel*cos(rad);
     int diffY = numPixel*sin(rad);
-    x=x+iffX;
+    x=x+diffX;
     y=y+diffY;
 }
 
