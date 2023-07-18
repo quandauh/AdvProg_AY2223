@@ -100,8 +100,8 @@ char findMostFrequentChar(const map<char, int>& occurrences, const set<char>& se
             most = b;
             answer = a;
         }
-    return answer;
     }
+     return answer;
 }
 
 /***
